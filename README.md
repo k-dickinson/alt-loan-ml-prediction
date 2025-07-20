@@ -130,7 +130,7 @@ print(f"Risk Level: {prediction['risk_level']}")
 
 The pipeline generates:
 - **Performance metrics**: AUC, F1 score, accuracy
-- **Visualizations**: 5 comprehensive analysis plots
+- **Visualizations**: 5 comprehensive analysis plots shown below
 - **Sample analysis**: Complete applicant breakdown
 - **Clean terminal output**: Only final summary
 
