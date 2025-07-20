@@ -139,15 +139,15 @@ The pipeline generates:
 The pipeline generates comprehensive visualizations for complete analysis:
 
 ### **1. Confusion Matrix with Accuracy**
-![Confusion Matrix](LINK_TO_CONFUSION_MATRIX_IMAGE)
+![Confusion Matrix](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/graphs/confusion_matrix.png)
 *Shows model performance with accuracy percentage displayed*
 
 ### **2. Precision-Recall Curve**
-![Precision-Recall](LINK_TO_PRECISION_RECALL_IMAGE)
+![Precision-Recall](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/graphs/precision_recall_curve.png)
 *Precision-recall analysis for imbalanced dataset evaluation*
 
 ### **3. Comprehensive Overfitting Analysis (4-Panel)**
-![Overfitting Analysis](LINK_TO_OVERFITTING_ANALYSIS_IMAGE)
+![Overfitting Analysis](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/graphs/comprehensive_overfitting_analysis.png)
 *Four-panel analysis showing:*
 - Training vs Testing ROC curves
 - Performance metrics comparison
@@ -155,11 +155,11 @@ The pipeline generates comprehensive visualizations for complete analysis:
 - Overfitting status summary
 
 ### **4. Feature Importance**
-![Feature Importance](LINK_TO_FEATURE_IMPORTANCE_IMAGE)
+![Feature Importance](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/graphs/feature_importance.png)
 *Bar chart of the 15 most important features*
 
 ### **5. Sample Applicant Analysis (4-Panel)**
-![Applicant Analysis](LINK_TO_APPLICANT_ANALYSIS_IMAGE)
+![Applicant Analysis](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/graphs/applicant_analysis.png)
 *Comprehensive applicant breakdown showing:*
 - Applicant summary with key data
 - Top contributing factors
