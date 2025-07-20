@@ -202,11 +202,9 @@ This alternative credit scoring system provides several advantages:
 4. **Scalability**: Can be deployed across different markets and demographics
 5. **Transparency**: Clear explanations for decisions
 
-## 🔗 Full Code Repository
+## 💻 Full Code Repository
 
-**Complete source code available at:** [LINK_TO_FULL_GITHUB_REPOSITORY]
-
-**Direct download:** [LINK_TO_ZIP_DOWNLOAD]
+**Complete source code available [here](https://github.com/k-dickinson/alt-loan-ml-prediction/blob/main/main.py)**
 
 ## Future Enhancements
 
@@ -266,7 +264,7 @@ alt-loan-ml-model/
 └── applicant_analysis.png           # Generated visualization
 ```
 
-## 📋 Requirements
+## Requirements
 
 ```
 pandas>=1.5.0
@@ -289,20 +287,16 @@ We welcome contributions! Please feel free to submit issues, feature requests, o
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact
+## Contact
 
-- **Project Link**: [LINK_TO_GITHUB_REPOSITORY]
-- **Issues**: [LINK_TO_GITHUB_ISSUES]
-- **Email**: [YOUR_EMAIL]
+- **Instagram**: @Quant_Kyle
 
 ## Acknowledgments
 
-- **Dataset**: [LINK_TO_DATASET_SOURCE]
+- **Dataset**: [LINK](https://www.kaggle.com/datasets/willianoliveiragibin/financial-risk-v2?resource=download)
 - **LightGBM**: Microsoft's gradient boosting framework
 - **Scikit-learn**: Machine learning library
 
 ---
 
 **⭐ Star this repository if you find it helpful!**
-
-**📊 Ready for production deployment in alternative credit scoring systems.** 
