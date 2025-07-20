@@ -227,7 +227,7 @@ Potential improvements for the model:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/alt-loan-ml-model.git
+git clone https://github.com/k-dickinson/alt-loan-ml-prediction.git
 cd alt-loan-ml-model
 ```
 
@@ -255,7 +255,6 @@ This will:
 alt-loan-ml-model/
 ├── main.py                          # Main pipeline script
 ├── requirements.txt                  # Python dependencies
-├── README.md                        # This file
 ├── Loan new datset.csv             # Dataset (not included in repo)
 ├── confusion_matrix.png             # Generated visualization
 ├── precision_recall_curve.png       # Generated visualization
@@ -289,7 +288,7 @@ We welcome contributions! Please feel free to submit issues, feature requests, o
 
 ## Contact
 
-- **Instagram**: @Quant_Kyle
+**Instagram**: @Quant_Kyle
 
 ## Acknowledgments
 
