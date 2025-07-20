@@ -5,7 +5,7 @@
 
 This project implements a **production-ready machine learning pipeline** for alternative credit scoring that predicts loan default probability using alternative data sources, **completely excluding traditional credit score and credit history information**.
 
-## 🎯 Project Overview
+## Project Overview
 
 Traditional credit scoring relies heavily on credit history, credit scores, and previous loan performance. This alternative approach uses **alternative data sources** to evaluate creditworthiness, making it suitable for:
 
@@ -15,7 +15,7 @@ Traditional credit scoring relies heavily on credit history, credit scores, and 
 - **Markets where traditional credit data is unavailable**
 - **Financial inclusion initiatives**
 
-## 📊 Key Features
+## Key Features
 
 ### ✅ **Alternative Data Sources Used**
 - **Demographic Information**: Age, marital status, number of dependents
@@ -39,7 +39,7 @@ Traditional credit scoring relies heavily on credit history, credit scores, and 
 - Bankruptcy history
 - Credit card utilization rate
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### **Algorithm Choice: LightGBM**
 We chose **LightGBM** over XGBoost for the following reasons:
@@ -65,7 +65,7 @@ The model evaluates performance using:
 - **Confusion Matrix**: Detailed breakdown of predictions vs actual outcomes
 - **Precision-Recall Curve**: Important for imbalanced datasets
 
-## 🔍 Model Interpretability
+## Model Interpretability
 
 ### **Feature Importance Analysis**
 - **Traditional importance scores**: Bar chart of most important features
@@ -166,7 +166,7 @@ The pipeline generates comprehensive visualizations for complete analysis:
 - Risk assessment pie chart
 - Recommendation analysis
 
-## 🎯 Key Features of the Implementation
+## Key Features of the Implementation
 
 ### **1. Robust Preprocessing**
 - **Missing Value Handling**: Intelligent imputation based on data type
@@ -192,7 +192,7 @@ The pipeline generates comprehensive visualizations for complete analysis:
 - **Documentation**: Comprehensive docstrings and comments
 - **Scalability**: Designed to handle large datasets efficiently
 
-## 💼 Business Impact
+## Business Impact
 
 This alternative credit scoring system provides several advantages:
 
@@ -208,7 +208,7 @@ This alternative credit scoring system provides several advantages:
 
 **Direct download:** [LINK_TO_ZIP_DOWNLOAD]
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 Potential improvements for the model:
 - **Ensemble Methods**: Combine multiple models for better performance
@@ -219,7 +219,7 @@ Potential improvements for the model:
 - **Web Interface**: User-friendly dashboard for loan officers
 - **API Integration**: RESTful API for external systems
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### **Prerequisites**
 - Python 3.8 or higher
@@ -278,7 +278,7 @@ lightgbm>=3.3.0
 xgboost>=1.6.0
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
@@ -295,7 +295,7 @@ We welcome contributions! Please feel free to submit issues, feature requests, o
 - **Issues**: [LINK_TO_GITHUB_ISSUES]
 - **Email**: [YOUR_EMAIL]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Dataset**: [LINK_TO_DATASET_SOURCE]
 - **LightGBM**: Microsoft's gradient boosting framework
