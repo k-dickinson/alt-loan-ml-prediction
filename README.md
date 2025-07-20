@@ -254,8 +254,8 @@ This will:
 ```
 alt-loan-ml-model/
 ├── main.py                          # Main pipeline script
-├── requirements.txt                  # Python dependencies
-├── Loan new datset.csv             # Dataset (not included in repo)
+├── requirements.txt                 # Python dependencies
+├── Loan new datset.csv              # Dataset
 ├── confusion_matrix.png             # Generated visualization
 ├── precision_recall_curve.png       # Generated visualization
 ├── comprehensive_overfitting_analysis.png  # Generated visualization
