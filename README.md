@@ -1,7 +1,6 @@
 # Alternative Credit Scoring Machine Learning Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
 
 This project implements a **production-ready machine learning pipeline** for alternative credit scoring that predicts loan default probability using alternative data sources, **completely excluding traditional credit score and credit history information**.
@@ -79,6 +78,15 @@ The model generates loan approval recommendations based on default probability:
 - **Medium Risk (30-60%)**: ⚠️ REVIEW
 - **High Risk (> 60%)**: ❌ DECLINE
 
+## 📊 Model Performance
+
+Our alternative credit scoring model achieves excellent performance:
+
+- **AUC Score**: 0.9588 (Excellent discrimination ability)
+- **F1 Score**: 0.9349 (Strong precision and recall balance)
+- **Accuracy**: 89.88% (High overall accuracy)
+- **No Overfitting**: Training and testing performance are closely aligned
+
 ## 📸 Visualizations Generated
 
 The pipeline generates comprehensive visualizations for complete analysis:
@@ -111,68 +119,7 @@ The pipeline generates comprehensive visualizations for complete analysis:
 - Risk assessment pie chart
 - Recommendation analysis
 
-## 🚀 Installation
-
-### **Prerequisites**
-- Python 3.8 or higher
-- pip package manager
-
-### **Quick Start**
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YOUR_USERNAME/alt-loan-ml-model.git
-cd alt-loan-ml-model
-```
-
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the pipeline:**
-```bash
-python main.py
-```
-
-## 📁 Project Structure
-
-```
-alt-loan-ml-model/
-├── main.py                          # Main pipeline script
-├── requirements.txt                  # Python dependencies
-├── README.md                        # This file
-├── Loan new datset.csv             # Dataset (not included in repo)
-├── confusion_matrix.png             # Generated visualization
-├── precision_recall_curve.png       # Generated visualization
-├── comprehensive_overfitting_analysis.png  # Generated visualization
-├── feature_importance.png           # Generated visualization
-└── applicant_analysis.png           # Generated visualization
-```
-
-## 🔧 Usage
-
-### **Running the Complete Pipeline**
-
-```bash
-python main.py
-```
-
-This will:
-1. ✅ Load and preprocess the dataset
-2. ✅ Train the LightGBM model with cross-validation
-3. ✅ Evaluate performance metrics
-4. ✅ Generate comprehensive visualizations
-5. ✅ Create sample applicant analysis
-6. ✅ Output final summary
-
-### **Expected Output**
-
-The pipeline generates:
-- **Performance metrics**: AUC, F1 score, accuracy
-- **Visualizations**: 5 comprehensive analysis plots
-- **Sample analysis**: Complete applicant breakdown
-- **Clean terminal output**: Only final summary
+## 🔧 Usage Examples
 
 ### **Example Prediction**
 
@@ -211,14 +158,72 @@ print(f"Recommendation: {prediction['recommendation']}")
 print(f"Risk Level: {prediction['risk_level']}")
 ```
 
-## 📊 Model Performance
+### **Expected Output**
 
-Our alternative credit scoring model achieves excellent performance:
+The pipeline generates:
+- **Performance metrics**: AUC, F1 score, accuracy
+- **Visualizations**: 5 comprehensive analysis plots
+- **Sample analysis**: Complete applicant breakdown
+- **Clean terminal output**: Only final summary
 
-- **AUC Score**: 0.9588 (Excellent discrimination ability)
-- **F1 Score**: 0.9349 (Strong precision and recall balance)
-- **Accuracy**: 89.88% (High overall accuracy)
-- **No Overfitting**: Training and testing performance are closely aligned
+## 🚀 Installation & Setup
+
+### **Prerequisites**
+- Python 3.8 or higher
+- pip package manager
+
+### **Quick Start**
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/YOUR_USERNAME/alt-loan-ml-model.git
+cd alt-loan-ml-model
+```
+
+2. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the pipeline:**
+```bash
+python main.py
+```
+
+This will:
+1. ✅ Load and preprocess the dataset
+2. ✅ Train the LightGBM model with cross-validation
+3. ✅ Evaluate performance metrics
+4. ✅ Generate comprehensive visualizations
+5. ✅ Create sample applicant analysis
+6. ✅ Output final summary
+
+## 📁 Project Structure
+
+```
+alt-loan-ml-model/
+├── main.py                          # Main pipeline script
+├── requirements.txt                  # Python dependencies
+├── README.md                        # This file
+├── Loan new datset.csv             # Dataset (not included in repo)
+├── confusion_matrix.png             # Generated visualization
+├── precision_recall_curve.png       # Generated visualization
+├── comprehensive_overfitting_analysis.png  # Generated visualization
+├── feature_importance.png           # Generated visualization
+└── applicant_analysis.png           # Generated visualization
+```
+
+## 📋 Requirements
+
+```
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+lightgbm>=3.3.0
+xgboost>=1.6.0
+```
 
 ## 🎯 Key Features of the Implementation
 
@@ -262,18 +267,6 @@ This alternative credit scoring system provides several advantages:
 
 **Direct download:** [LINK_TO_ZIP_DOWNLOAD]
 
-## 📋 Requirements
-
-```
-pandas>=1.5.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-scikit-learn>=1.1.0
-lightgbm>=3.3.0
-xgboost>=1.6.0
-```
-
 ## 🚀 Future Enhancements
 
 Potential improvements for the model:
@@ -296,10 +289,6 @@ We welcome contributions! Please feel free to submit issues, feature requests, o
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact
 
 - **Project Link**: [LINK_TO_GITHUB_REPOSITORY]
@@ -311,7 +300,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Dataset**: [LINK_TO_DATASET_SOURCE]
 - **LightGBM**: Microsoft's gradient boosting framework
 - **Scikit-learn**: Machine learning library
-- **SHAP**: Model interpretability library
 
 ---
 
