@@ -57,7 +57,7 @@ We chose **LightGBM** over XGBoost for the following reasons:
 - **Feature scaling**: StandardScaler for numerical features
 - **Stratified sampling**: Ensures balanced representation in train/test splits
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 The model evaluates performance using:
 - **AUC (Area Under ROC Curve)**: Measures the model's ability to distinguish between classes
@@ -78,7 +78,7 @@ The model generates loan approval recommendations based on default probability:
 - **Medium Risk (30-60%)**: ⚠️ REVIEW
 - **High Risk (> 60%)**: ❌ DECLINE
 
-## 📊 Model Performance
+## 📈 Model Performance
 
 Our alternative credit scoring model achieves excellent performance:
 
@@ -87,7 +87,7 @@ Our alternative credit scoring model achieves excellent performance:
 - **Accuracy**: 89.88% (High overall accuracy)
 - **No Overfitting**: Training and testing performance are closely aligned
 
-## 🔧 Usage Examples
+## Usage Example
 
 ### **Example Prediction**
 
