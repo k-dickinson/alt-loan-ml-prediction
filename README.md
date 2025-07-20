@@ -87,38 +87,6 @@ Our alternative credit scoring model achieves excellent performance:
 - **Accuracy**: 89.88% (High overall accuracy)
 - **No Overfitting**: Training and testing performance are closely aligned
 
-## 📸 Visualizations Generated
-
-The pipeline generates comprehensive visualizations for complete analysis:
-
-### **1. Confusion Matrix with Accuracy**
-![Confusion Matrix](LINK_TO_CONFUSION_MATRIX_IMAGE)
-*Shows model performance with accuracy percentage displayed*
-
-### **2. Precision-Recall Curve**
-![Precision-Recall](LINK_TO_PRECISION_RECALL_IMAGE)
-*Precision-recall analysis for imbalanced dataset evaluation*
-
-### **3. Comprehensive Overfitting Analysis (4-Panel)**
-![Overfitting Analysis](LINK_TO_OVERFITTING_ANALYSIS_IMAGE)
-*Four-panel analysis showing:*
-- Training vs Testing ROC curves
-- Performance metrics comparison
-- Performance differences
-- Overfitting status summary
-
-### **4. Feature Importance**
-![Feature Importance](LINK_TO_FEATURE_IMPORTANCE_IMAGE)
-*Bar chart of the 15 most important features*
-
-### **5. Sample Applicant Analysis (4-Panel)**
-![Applicant Analysis](LINK_TO_APPLICANT_ANALYSIS_IMAGE)
-*Comprehensive applicant breakdown showing:*
-- Applicant summary with key data
-- Top contributing factors
-- Risk assessment pie chart
-- Recommendation analysis
-
 ## 🔧 Usage Examples
 
 ### **Example Prediction**
@@ -165,6 +133,91 @@ The pipeline generates:
 - **Visualizations**: 5 comprehensive analysis plots
 - **Sample analysis**: Complete applicant breakdown
 - **Clean terminal output**: Only final summary
+
+## 📸 Visualizations Generated
+
+The pipeline generates comprehensive visualizations for complete analysis:
+
+### **1. Confusion Matrix with Accuracy**
+![Confusion Matrix](LINK_TO_CONFUSION_MATRIX_IMAGE)
+*Shows model performance with accuracy percentage displayed*
+
+### **2. Precision-Recall Curve**
+![Precision-Recall](LINK_TO_PRECISION_RECALL_IMAGE)
+*Precision-recall analysis for imbalanced dataset evaluation*
+
+### **3. Comprehensive Overfitting Analysis (4-Panel)**
+![Overfitting Analysis](LINK_TO_OVERFITTING_ANALYSIS_IMAGE)
+*Four-panel analysis showing:*
+- Training vs Testing ROC curves
+- Performance metrics comparison
+- Performance differences
+- Overfitting status summary
+
+### **4. Feature Importance**
+![Feature Importance](LINK_TO_FEATURE_IMPORTANCE_IMAGE)
+*Bar chart of the 15 most important features*
+
+### **5. Sample Applicant Analysis (4-Panel)**
+![Applicant Analysis](LINK_TO_APPLICANT_ANALYSIS_IMAGE)
+*Comprehensive applicant breakdown showing:*
+- Applicant summary with key data
+- Top contributing factors
+- Risk assessment pie chart
+- Recommendation analysis
+
+## 🎯 Key Features of the Implementation
+
+### **1. Robust Preprocessing**
+- **Missing Value Handling**: Intelligent imputation based on data type
+- **Categorical Encoding**: Adaptive encoding strategy based on cardinality
+- **Feature Scaling**: Standardization for numerical features
+- **Data Validation**: Checks for data quality and consistency
+
+### **2. Model Training**
+- **Cross-validation**: 5-fold stratified cross-validation
+- **Early Stopping**: Prevents overfitting with validation set monitoring
+- **Hyperparameter Optimization**: Pre-tuned parameters for optimal performance
+- **Stratified Sampling**: Maintains class balance in train/test splits
+
+### **3. Comprehensive Evaluation**
+- **Multiple Metrics**: AUC, F1, precision, recall, specificity
+- **Visual Analysis**: ROC curves, confusion matrices, feature importance
+- **Business Rules**: Actionable recommendations for loan approval
+- **Overfitting Detection**: Training vs testing performance comparison
+
+### **4. Production Ready**
+- **Modular Design**: Clean, reusable code structure
+- **Error Handling**: Robust error handling and validation
+- **Documentation**: Comprehensive docstrings and comments
+- **Scalability**: Designed to handle large datasets efficiently
+
+## 💼 Business Impact
+
+This alternative credit scoring system provides several advantages:
+
+1. **Financial Inclusion**: Enables lending to underserved populations
+2. **Risk Assessment**: Provides reliable risk evaluation without traditional credit data
+3. **Regulatory Compliance**: Can be designed to avoid discriminatory practices
+4. **Scalability**: Can be deployed across different markets and demographics
+5. **Transparency**: Clear explanations for decisions
+
+## 🔗 Full Code Repository
+
+**Complete source code available at:** [LINK_TO_FULL_GITHUB_REPOSITORY]
+
+**Direct download:** [LINK_TO_ZIP_DOWNLOAD]
+
+## 🚀 Future Enhancements
+
+Potential improvements for the model:
+- **Ensemble Methods**: Combine multiple models for better performance
+- **Feature Engineering**: Create derived features from existing data
+- **Real-time Scoring**: API deployment for real-time predictions
+- **A/B Testing**: Framework for model comparison and validation
+- **Regulatory Compliance**: Built-in fairness and bias detection
+- **Web Interface**: User-friendly dashboard for loan officers
+- **API Integration**: RESTful API for external systems
 
 ## 🚀 Installation & Setup
 
@@ -224,59 +277,6 @@ scikit-learn>=1.1.0
 lightgbm>=3.3.0
 xgboost>=1.6.0
 ```
-
-## 🎯 Key Features of the Implementation
-
-### **1. Robust Preprocessing**
-- **Missing Value Handling**: Intelligent imputation based on data type
-- **Categorical Encoding**: Adaptive encoding strategy based on cardinality
-- **Feature Scaling**: Standardization for numerical features
-- **Data Validation**: Checks for data quality and consistency
-
-### **2. Model Training**
-- **Cross-validation**: 5-fold stratified cross-validation
-- **Early Stopping**: Prevents overfitting with validation set monitoring
-- **Hyperparameter Optimization**: Pre-tuned parameters for optimal performance
-- **Stratified Sampling**: Maintains class balance in train/test splits
-
-### **3. Comprehensive Evaluation**
-- **Multiple Metrics**: AUC, F1, precision, recall, specificity
-- **Visual Analysis**: ROC curves, confusion matrices, feature importance
-- **Business Rules**: Actionable recommendations for loan approval
-- **Overfitting Detection**: Training vs testing performance comparison
-
-### **4. Production Ready**
-- **Modular Design**: Clean, reusable code structure
-- **Error Handling**: Robust error handling and validation
-- **Documentation**: Comprehensive docstrings and comments
-- **Scalability**: Designed to handle large datasets efficiently
-
-## 💼 Business Impact
-
-This alternative credit scoring system provides several advantages:
-
-1. **Financial Inclusion**: Enables lending to underserved populations
-2. **Risk Assessment**: Provides reliable risk evaluation without traditional credit data
-3. **Regulatory Compliance**: Can be designed to avoid discriminatory practices
-4. **Scalability**: Can be deployed across different markets and demographics
-5. **Transparency**: Clear explanations for decisions
-
-## 🔗 Full Code Repository
-
-**Complete source code available at:** [LINK_TO_FULL_GITHUB_REPOSITORY]
-
-**Direct download:** [LINK_TO_ZIP_DOWNLOAD]
-
-## 🚀 Future Enhancements
-
-Potential improvements for the model:
-- **Ensemble Methods**: Combine multiple models for better performance
-- **Feature Engineering**: Create derived features from existing data
-- **Real-time Scoring**: API deployment for real-time predictions
-- **A/B Testing**: Framework for model comparison and validation
-- **Regulatory Compliance**: Built-in fairness and bias detection
-- **Web Interface**: User-friendly dashboard for loan officers
-- **API Integration**: RESTful API for external systems
 
 ## 🤝 Contributing
 
