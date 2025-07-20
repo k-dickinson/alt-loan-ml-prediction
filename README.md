@@ -228,7 +228,7 @@ Potential improvements for the model:
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/k-dickinson/alt-loan-ml-prediction.git
-cd alt-loan-ml-model
+cd alt-loan-ml-prediction
 ```
 
 2. **Install dependencies:**
